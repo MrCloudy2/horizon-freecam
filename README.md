@@ -1,6 +1,6 @@
-# Freecam for Horizon
+# Freecam+ for Horizon
 
-![Freecam icon](icon.png)
+![Freecam+ icon](icon.png)
 
 A native mod for [Horizon](https://github.com/horizon-rust/horizon). Press a key and your camera leaves your body. Fly it anywhere and look around freely while your player stays exactly where you left it, facing the same way.
 
@@ -8,7 +8,7 @@ A native mod for [Horizon](https://github.com/horizon-rust/horizon). Press a key
 
 | Input | Action |
 |---|---|
-| **U** | Turn freecam on or off (change it in Options, Mods, Freecam) |
+| **U** | Turn freecam on or off (change it in Options, Mods, Freecam+) |
 | W A S D | Move the camera |
 | Space and Left Shift | Move up and down |
 | Left Ctrl | Move twice as fast while held |
@@ -19,7 +19,7 @@ Your body stays visible where you left it, and chat and menus work as usual whil
 
 ## Settings
 
-Open Options, Mods, Freecam.
+Open Options, Mods, Freecam+.
 
 | Setting | Default | What it does |
 |---|---|---|
@@ -33,7 +33,7 @@ Only your camera moves. Your player sends no movement and no rotation, so the se
 
 ## Install
 
-In the Horizon launcher, open Mods and install Freecam, or use Add from GitHub with this repository's link. Then build your native mods in the launcher as usual.
+In the Horizon launcher, open Mods and install Freecam+, or use Add from GitHub with this repository's link. Then build your native mods in the launcher as usual.
 
 ## Build from source
 
@@ -43,7 +43,7 @@ You need Rust 1.95 or newer, Python 3.12 or newer, a Horizon checkout at the com
 |---|---|
 | `cargo test` | Runs the tests of the camera logic |
 | `python tools/bundle.py apply --horizon <horizon> --mixins-tool <horizon-mixins> --out <stage> --check-target <target>` | Applies the mod to Horizon and checks that the game compiles |
-| `python tools/bundle.py package` | Writes `build/freecam-<version>.hnmod` |
+| `python tools/bundle.py package` | Writes `build/freecam_plus-<version>.hnmod` |
 | `python tools/make_icon.py` | Redraws `icon.png` |
 
 Made for Horizon Nightly 2026.10.30 (commit `1da354b`) with horizon-mixins `3f99a5c`. Tested on Windows 11.

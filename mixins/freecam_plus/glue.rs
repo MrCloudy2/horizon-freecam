@@ -102,7 +102,7 @@ pub(super) fn wheel(game: &mut Game<'_>, steps: f32, claimed: &mut bool) {
 pub(super) fn listed(mods: &mut Vec<super::native_hooks::NativeMod>) {
     mods.push(super::native_hooks::NativeMod {
         id: freecam::ID.into(),
-        title: format!("Freecam {}", freecam::VERSION),
+        title: format!("Freecam+ {}", freecam::VERSION),
         description: freecam::DESCRIPTION.into(),
         keys: vec![[freecam::KEY.into(), "Toggle freecam".into(), freecam::DEFAULT_KEY.into()]],
     });
