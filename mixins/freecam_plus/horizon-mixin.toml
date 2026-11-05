@@ -1,10 +1,10 @@
 [mod]
 id = "freecam_plus"
-version = "1.0.0"
+version = "1.0.1"
 priority = 100
 
 [compatibility]
-horizon_revision = "1da354b67a509812c4141b67de2affd6de65c342"
+horizon_revision = "f319701e8c9ab657ff562250b3ba07b2d654e3bc"
 
 [[module]]
 id = "runtime"

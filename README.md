@@ -46,7 +46,7 @@ You need Rust 1.95 or newer, Python 3.12 or newer, a Horizon checkout at the com
 | `python tools/bundle.py package` | Writes `build/freecam_plus-<version>.hnmod` |
 | `python tools/make_icon.py` | Redraws `icon.png` |
 
-Made for Horizon Nightly 2026.10.30 (commit `1da354b`) with horizon-mixins `3f99a5c`. Tested on Windows 11.
+Made for Horizon Nightly 2026.11.05 (commit `f319701`) with horizon-mixins `e8cd0aa`. Tested on Linux (Horizon launcher 0.2.42).
 
 ## License
 
